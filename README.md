@@ -1,4 +1,4 @@
-Database Security - Group Project
+## Database Security - Group Project
 
 This project implements a secure database management system for the AP Arena sports complex. It is designed to meet rigorous security requirements including data integrity, availability, confidentiality, and non-repudiation. The solution leverages role-based access control (RBAC), detailed auditing, and data protection techniques to ensure a robust and secure environment.
 
