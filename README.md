@@ -11,7 +11,6 @@ This project implements a secure database management system for the AP Arena spo
 - [Auditing and Security](#auditing-and-security)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -43,3 +42,66 @@ This project implements a secure database management system for the AP Arena spo
 - **Git:** To clone and manage the repository.
 
 ## File Structure
+
+Database_Security_Project/
+├── Auditing.sql
+
+├── Backups.sql
+
+├── CreateFacilities.sql
+
+├── Data_Security.sql
+
+├── Database_Setup.sql
+
+├── Master_Configuration.sql
+
+├── Procedure.sql
+
+├── Schema_Creation.sql
+
+├── Trigger.sql
+
+├── User_and_Role_Setup.sql
+
+├── README.md
+
+## Setup Instructions
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YongHui0908/Database-Security-Project.git
+   cd Database-Security-Project
+
+**2. Configure SQL Server:**
+
+Ensure your SQL Server service account has the necessary permissions (e.g., write access to audit directories).
+
+**3. Run the MasterScript.sql:**
+
+Open it in SSMS (with SQLCMD mode if needed) and execute.
+
+**4. Verify and Test:**
+
+Check that all objects, triggers, and data are correctly set up.
+
+## Auditing and Security
+
+**Audit Logs:**
+
+Uses SQL Server auditing to track user and database actions.
+
+**Triggers:**
+
+A trigger (trg_LogChanges) logs any INSERT, UPDATE, or DELETE operations.
+
+**Data Protection:**
+
+Data masking is applied on sensitive columns.
+
+## Contributing
+Feel free to fork the repository, submit pull requests, or open issues if you have suggestions or improvements.
+
+## License
+This project is licensed under the MIT License.
+
+
